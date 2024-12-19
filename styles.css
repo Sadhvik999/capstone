@@ -64,6 +64,7 @@ a{
 }
 a:hover{
     color:antiquewhite; 
+    cursor: pointer;
 }
 h1{
     color: white;
