@@ -30,7 +30,7 @@ body {
 }
 .container{
     margin-top:2.5rem;
-    border-bottom:0.06 solid rgba(255, 255, 255, 1);
+    border-bottom:0.06rem solid rgba(255, 255, 255, 1);
 }
 img{
     width: 100%;
