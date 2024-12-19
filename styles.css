@@ -1,0 +1,281 @@
+*{
+    color: white;
+}
+body {
+    margin: 0;
+    background-color:black; 
+}
+.main-container{
+    margin: 20px;
+}
+.image0{
+    padding-bottom: 50px;
+}
+.heading h1{
+    text-align: center;
+    padding-left: auto;
+    font-family: "Chivo", serif;
+    margin: 50px 0 30px 0;
+    font-size: 7.5rem;
+    line-height: 7.5rem;
+}
+.heading img{
+    margin-bottom: 2.5rem;
+}
+.top-nav{
+    margin: 1.25rem 3.75rem 0 3.75rem;
+}
+.outer-container{
+    padding-top: 0.6rem;
+}
+.container{
+    margin-top: 40px;
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+}
+img{
+    width: 100%;
+    border-radius: 1.375rem; 
+}
+.heading h2{
+    font-size: 64px;
+    margin: 100px 120px 40px 0;
+    padding: 0 520px 0 0;
+}
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding:0rem 2rem;
+    background-color: #222; 
+    border-radius:0.62rem; 
+    line-height:3rem;
+}
+a{
+    color: white;
+    font-family: "Archivo", serif;
+}
+.head a{
+    font-size: 2rem;
+    font-family: "MuseoModerno", serif;
+}
+.name a{
+    margin:0 0.25rem;
+    font-family: "Archivo", serif;
+}
+a:hover{
+    color:antiquewhite; 
+}
+h1{
+    color: white;
+}
+h2{
+    color: white;
+}
+.main-image img{
+    justify-content: center;
+    border-radius: 0.3rem;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 4rem;
+    gap: 20px;
+
+}
+.uppertext{
+    color: #FFFFFF;
+    font-family: "Archivo", serif;
+}
+.loweer{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Archivo", serif;
+}
+
+.ptp{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* justify-content: space-between; */
+    margin: 30px;
+    gap: 20px;
+}
+.e_d1{
+    color: rgba(255, 255, 255, 1);
+    padding: 40px 0 40px 0;
+    font-size: 24px;
+    font-family: "Archivo", serif;
+}
+.profile_img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-left: 30px;
+}
+.lowest_heading{
+    text-align: center;
+    font-family: "chivo", serif;
+    font-size: 48px;
+    margin: 50px 20px;
+}
+.comment{
+    border: 1px solid rgba(255, 255, 255, 1);
+    padding:24px;
+    border-radius: 16px;
+    /* width:288px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+
+}
+.profile_details{
+    margin-left:18px;
+
+}
+.comment_review{
+    /* display: flex;   */
+    justify-content:space-around;          
+    margin-left:56px;
+    border-left: 1px solid rgba(255, 255, 255, 0.16);
+    padding-left:30px;
+    padding-top: 0;
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    gap: 25px;
+    overflow-x: scroll;
+    padding: 20px;
+    margin-bottom: 50px;
+
+}
+
+.landing-page {
+    margin-left: 10rem;
+    width: 75%;
+}
+.footer{
+    display: flex;
+    justify-content:space-between;
+    margin: 5rem 2rem 1rem 2rem;
+}
+.footer .left {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+@media (max-width: 1024px){
+    .grid{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .heading h2{
+        font-size: 5rem ;
+        padding:0 300px 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .heading h1 {
+        font-size: 5rem;
+    }
+    .heading h2 {
+        font-size: 3.5rem;
+    }
+    .landing-page {
+        margin-left: 2rem;
+        width: 75%;
+    }
+}
+
+@media (max-width: 518px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .heading h1 {
+        font-size: 5rem;
+    }
+    .heading h2 {
+        font-size: 3.5rem;
+    }
+    .landing-page {
+        margin-left: 1rem;
+        width: 75%;
+    }
+    .main-container{
+        margin: 0.5rem;
+    }
+    .navbar {
+        font-size: 0.8rem;
+    }
+    .head {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 452px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .heading h1 {
+        font-size: 3rem;
+    }
+    .heading h2 {
+        font-size: 3rem;
+    }
+    .navbar {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 0;
+        background-color: #222; 
+    }
+    .top-nav {
+        margin: 0.5rem 0.2rem 0 0.2rem;
+    }
+    
+}
+
+@media (max-width: 347px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    .heading h1 {
+        font-size: 1.2rem;
+    }
+    .heading h2 {
+        font-size: 1.2rem;
+    }
+    .navbar {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 0;
+        background-color: #222;
+    }
+    .top-nav {
+        margin: 0.25rem 0.12rem 0 0.12rem;
+    }
+    .name a{
+        margin:0 0.25rem;
+        font-family: "Archivo", serif;
+    }
+    .head a{
+        font-size: 1rem;    
+    }
+}
+
+@media (max-width: 248px) {
+    .navbar {
+        display: flex;
+        justify-content:space-around;
+        align-items: center;
+        margin-left: 0;
+        background-color: black;
+    }
+}
